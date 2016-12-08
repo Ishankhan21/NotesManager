@@ -1,0 +1,133 @@
+main{
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
+  display: block;
+    font-size: 2rem;
+    height: 56px;
+    line-height: 39px;
+}
+.switch label input[type=checkbox]:checked + .lever{
+  background-color:#ff94b9;
+}
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: #ff94b9;
+}
+.switch label input[type=checkbox]:checked + .lever:after {
+  background-color: #ff4081;
+  left: 24px;
+}
+div.chip{
+  font-size: 12px;
+}
+a.right.clear{
+  display: none;
+}
+.centercontent{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.test{
+  width: 60%;
+}
+.primary, .primary:hover{
+  background-color: rgb(33,150,243);
+}
+.accent, .accent:hover{
+  background-color: #FF4081;
+}
+.floattop{
+  margin-top: -30px;
+}
+.card-panel{
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .centercontent {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .switch label .lever {
+    margin-left: 1px;
+    margin-right: ;
+  }
+}
+.demo-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(33,150,243);
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+.demo-main {
+  margin-top: -30vh;
+  min-height: ;
+  background-color: white;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+/* changing colors  for forms*/
+/* label color */
+ .input-field label {
+   color: #000;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: rgb(33,150,243);
+ }
+ .input-field input[type=password]:focus + label {
+   color: rgb(33,150,243);
+ }
+ textarea.materialize-textarea:focus:not([readonly]) + label{
+   color: rgb(33,150,243);
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid rgb(33,150,243);
+   box-shadow: 0 1px 0 0 #000;
+ }
+ .input-field input[type=password]:focus {
+   border-bottom: 1px solid rgb(33,150,243);
+   box-shadow: 0 1px 0 0 #000;
+ }
+
+ /* valid color */
+ .input-field input[type=text].valid {
+   border-bottom: 1px solid rgb(33,150,243);
+   box-shadow: 0 1px 0 0 #000;
+ }
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid rgb(33,150,243);
+   box-shadow: 0 1px 0 0 #000;
+ }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #000;
+ }
+
+.collapsible-header{
+  margin: 1em;
+}
+
+
+#floatsmall{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 993px){
+  nav#navbar{
+    height: 14vh;
+ }
+}
