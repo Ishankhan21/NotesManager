@@ -1,6 +1,9 @@
 # NotesManager
-Material design based Notes and todo List application
+Material design based Notes and todo List application.
 
 
+This is a PHP based Web application and it is completely Object orientated.
 
-This the Readmen File.
+It uses Material design.
+
+Screenshots can be found in Screenshots folder.
